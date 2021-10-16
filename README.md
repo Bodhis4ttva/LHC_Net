@@ -3,10 +3,8 @@ Local Multi-Head Channel Self-Attention
 
 This repository is intended to replicate the results in this paper on FER2013.
 
-Requirements:
-
+Requirements: \n
 python 3.8.5
-
 requirements.txt
 
 
