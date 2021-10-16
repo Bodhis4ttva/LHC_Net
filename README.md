@@ -8,7 +8,7 @@ python 3.8.5 <br />
 requirements.txt
 
 How to:<br />
-clone the repository and execute main.py
+Clone the repository and execute main.py
 
 
 Note that:<br />
