@@ -1,7 +1,7 @@
 # LHC_Net
 Local Multi-Head Channel Self-Attention
 
-This repository is intended to replicate the results in this [paper](https://www.dropbox.com/s/v9sr9gkb45clszq/Rev3.pdf?dl=1) on FER2013.
+This repository is intended to replicate the results in this [paper](https://www.dropbox.com/s/ltqykplbjk6ks3g/Rev4.pdf?dl=1) on FER2013.
 
 Requirements: <br />
 python 3.8.5 <br />
