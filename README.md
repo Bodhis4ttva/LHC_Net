@@ -7,7 +7,7 @@ This repository is intended to replicate the results in this [paper](https://www
 Nvidia Geforce GTX-1080ti <br />
 Driver 457.51 <br />
 Cuda 11.1.1 <br />
-CuDNN v8.0.5 <br />
+CuDNN v8.0.5 - 11.1 <br />
 python 3.8.5 <br />
 requirements.txt
 
