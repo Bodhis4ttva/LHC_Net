@@ -18,8 +18,8 @@ If you get the output "Replicable Results!" you will 99% get our exact result, o
 
 **Requirements for full replicability: <br />**
 Nvidia Geforce GTX-1080ti (any Pascal GPU should work)<br />
-Driver 457.51 <br />
-Cuda 11.1.1* <br />
+GPU Driver 457.51 <br />
+Cuda Druver 11.1.1* <br />
 CuDNN v8.0.5 - 11.1 <br />
 Python 3.8.5 <br />
 requirements.txt
