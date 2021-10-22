@@ -12,7 +12,7 @@ python 3.8.5 <br />
 requirements.txt
 <br />
 <br />
-*After cuda installation rename the file C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.1\bin\cusolver64_11.dll in ...\cusolver64_11.dll
+*After Cuda installation rename C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.1\bin\cusolver64_11.dll in ...\cusolver64_11.dll
 
 **How to:<br />**
 Clone the repository and execute main.py
