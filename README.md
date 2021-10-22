@@ -22,8 +22,7 @@ GPU Driver 457.51 <br />
 Cuda Druver 11.1.1* <br />
 CuDNN v8.0.5 - 11.1 <br />
 Python 3.8.5 <br />
-requirements.txt
-<br />
+requirements.txt <br />
 <br />
 *After Cuda installation rename C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.1\bin\cusolver64_11.dll in ...\cusolver64_10.dll
 
@@ -31,5 +30,7 @@ requirements.txt
 ```
 python Download_Data.py
 python ETL.py
-python check_rep.py
+python Download_Models.py
+python LHC_Downloaded_Eval.py
+python Controller_Downloaded_Eval.py
 ```
