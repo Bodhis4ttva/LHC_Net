@@ -13,15 +13,7 @@ Execute:
 ```
 python check_rep.py
 ```
-If you get this output:
-```
-Replicable Results!
-```
-you will 99% get our exact result, otherwise if you get:
-```
-Not Replicable Results. Change your GPU!
-```
-you won't be able to get our exact result.
+If you get the output "Replicable Results!" you will 99% get our exact result, otherwise if you get "Not Replicable Results. Change your GPU!" you won't be able to get our exact results.
 
 **Requirements for full replicability: <br />**
 Nvidia Geforce GTX-1080ti (any Pascal GPU should work)<br />
