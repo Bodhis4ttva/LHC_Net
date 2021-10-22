@@ -6,10 +6,13 @@ This repository is intended to replicate the results in this [paper](https://www
 **Requirements for full replicability: <br />**
 Nvidia Geforce GTX-1080ti <br />
 Driver 457.51 <br />
-Cuda 11.1.1 <br />
+Cuda 11.1.1 <br />*
 CuDNN v8.0.5 - 11.1 <br />
 python 3.8.5 <br />
 requirements.txt
+<br />
+<br />
+*After cuda installation rename the file C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.1\bin\cusolver64_11.dll in ...\cusolver64_11.dll
 
 **How to:<br />**
 Clone the repository and execute main.py
