@@ -1,7 +1,7 @@
 # LHC-Net
 Local Multi-Head Channel Self-Attention
 
-This repository is intended to give a quick implementation of the LHC-Net and to replicate the results in this [paper](https://www.dropbox.com/s/ltqykplbjk6ks3g/Rev4.pdf?dl=1) on FER2013 by downloading our trained models or, when hardware compatibility is available, by training the model from scratch. A fully custom training routine is also available.
+This repository is intended to provide a quick implementation of the LHC-Net and to replicate the results in this [paper](https://www.dropbox.com/s/ltqykplbjk6ks3g/Rev4.pdf?dl=1) on FER2013 by downloading our trained models or, when hardware compatibility is available, by training the model from scratch. A fully custom training routine is also available.
 
 ![Image of LHC_Net](https://github.com/Bodhis4ttva/LHC_Net/blob/main/Images/LHC_Net.jpg)
 ![Image of LHC_Module2](https://github.com/Bodhis4ttva/LHC_Net/blob/main/Images/LHC_Module2.jpg)
