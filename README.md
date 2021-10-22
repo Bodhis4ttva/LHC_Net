@@ -10,11 +10,17 @@ This repository is intended to provide a quick implementation of the LHC-Net and
 ### How to check the bit-exact replicability
 Bit-exact replicability is strongly hardware dependent. Since the results we presented are dependent on the choice of a very good performing starting ResNet34v2 model, we strongly recommend to run the replicability script before attempting to replicate our computational/time intensive training protocol.
 Execute:
-     python check_rep.py
+```
+python check_rep.py
+```
 If you get this output:
-    Replicable Results!
+```
+Replicable Results!
+```
 you will 99% get our exact result, otherwise if you get:
-    Not Replicable Results. Change your GPU!
+```
+Not Replicable Results. Change your GPU!
+```
 you won't be able to get our exact result.
 
 **Requirements for full replicability: <br />**
