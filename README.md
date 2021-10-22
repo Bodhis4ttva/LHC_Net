@@ -7,7 +7,7 @@ This repository is intended to provide a quick implementation of the LHC-Net and
 ![Image of LHC_Module2](https://github.com/Bodhis4ttva/LHC_Net/blob/main/Images/LHC_Module2.jpg)
 
 **Requirements for full replicability: <br />**
-Nvidia Geforce GTX-1080ti <br />
+Nvidia Geforce GTX-1080ti (any Pascal GPU should work)<br />
 Driver 457.51 <br />
 Cuda 11.1.1* <br />
 CuDNN v8.0.5 - 11.1 <br />
