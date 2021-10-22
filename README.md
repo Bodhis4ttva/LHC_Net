@@ -29,7 +29,6 @@ requirements.txt <br />
 ## How to download our trained models and evaluate their performances on FER2013
 ```
 python Download_Data.py
-python ETL.py
 python Download_Models.py
 python LHC_Downloaded_Eval.py
 python Controller_Downloaded_Eval.py
