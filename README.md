@@ -6,8 +6,7 @@ This repository is intended to provide a quick implementation of the LHC-Net and
 ![Image of LHC_Net](https://github.com/Bodhis4ttva/LHC_Net/blob/main/Images/LHC_Net.jpg)
 ![Image of LHC_Module2](https://github.com/Bodhis4ttva/LHC_Net/blob/main/Images/LHC_Module2.jpg)
 
-## How to
-### How to check the bit-exact replicability
+## How to check the bit-exact replicability
 Bit-exact replicability is strongly hardware dependent. Since the results we presented are dependent on the choice of a very good performing starting ResNet34v2 model, we strongly recommend to run the replicability script before attempting to replicate our computational/time intensive training protocol.
 Execute:
 ```
@@ -26,5 +25,5 @@ requirements.txt
 <br />
 *After Cuda installation rename C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.1\bin\cusolver64_11.dll in ...\cusolver64_10.dll
 
-### How to download our trained models and evaluate their performances on FER2013
+## How to download our trained models and evaluate their performances on FER2013
 Executing main.py will automatically download the data from dropbox and create a folder with the entire FER2013 training set saved as jpeg
