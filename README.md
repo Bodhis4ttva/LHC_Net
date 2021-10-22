@@ -7,7 +7,7 @@ This repository is intended to provide a quick implementation of the LHC-Net and
 ![Image of LHC_Module2](https://github.com/Bodhis4ttva/LHC_Net/blob/main/Images/LHC_Module2.jpg)
 
 ## How to check the bit-exact replicability
-Bit-exact replicability is strongly hardware dependent. Since the results we presented are dependent on the choice of a very good performing starting ResNet34v2 model, we strongly recommend to run the replicability script before attempting to replicate our computational/time intensive training protocol.
+Bit-exact replicability is strongly hardware dependent. Since the results we presented are dependent on the choice of a very good performing starting ResNet34v2 model, we strongly recommend to run the replicability script before attempting to execute our computational/time intensive training protocol.
 Execute:
 ```
 python Download_Data.py
