@@ -26,5 +26,5 @@ requirements.txt
 <br />
 *After Cuda installation rename C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.1\bin\cusolver64_11.dll in ...\cusolver64_10.dll
 
-**Note that:<br />**
+### How to download our trained models and evaluate their performances on FER2013
 Executing main.py will automatically download the data from dropbox and create a folder with the entire FER2013 training set saved as jpeg
