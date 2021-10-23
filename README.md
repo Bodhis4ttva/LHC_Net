@@ -35,3 +35,24 @@ python Download_Models.py
 python LHC_Downloaded_Eval.py
 python Controller_Downloaded_Eval.py
 ```
+
+## How to train and evaluate your own LHC-Net on FER2013 in the "standalone" mode
+To train an LHC-Net without using a pre-trained ResNet backbone edit the configuration files in the *Settings* folder and run the following scripts:
+```
+python Download_Data.py
+python ETL.py
+python LHC_Net_Train.py
+python LHC_Net_Eval.py
+```
+
+## How to train and evalueate LHC-Net on FER2013 in our "modular" mode and replicate our results
+If the replicability check gave a positive result you could replicate our exact result by integrating the LHC modules on an already trained ResNet backbone according with our first experimental protocol. To do that run the following scripts:
+```
+python Download_Data.py
+python ETL.py
+python ResNet34_Train.py
+python LHC_Train.py
+python Controller_Train.py
+python LHC_Eval.py
+python Controller_Eval.py
+```
