@@ -47,7 +47,7 @@ python LHC_Net_Eval.py
 ```
 
 ## How to train and evalueate LHC-Net on FER2013 in our "modular" mode and replicate our results
-If the replicability check gave a positive result you could replicate our exact result by integrating the LHC modules on a ResNet backbone already trained on FER2013, according with our first experimental protocol. To do that execute the following commands in your terminal:
+If the replicability check gave a positive result you could replicate our exact result by integrating and training the LHC modules on a ResNet backbone already trained on FER2013, according with our first experimental protocol. To do that execute the following commands in your terminal:
 ```
 python Download_Data.py
 python ETL.py
