@@ -14,6 +14,10 @@ python Download_Data.py
 python ETL.py
 python check_rep.py
 ```
+Ore equivalently:
+```
+python main_check_rep.py
+```
 If you get the output "Replicable Results!" you will 99% get our exact result, otherwise if you get "Not Replicable Results. Change your GPU!" you won't be able to get our results.
 
 Please note that *Download_Data.py* will download the FER2013 dataset in .csv format while *ETL.py* will save all the 28709 images of the training set in .jpeg format in order to allow the use of TensorFlow image data generator and save some memory.
