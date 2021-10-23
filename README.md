@@ -24,7 +24,7 @@ CuDNN v8.0.5 - 11.1 <br />
 Python 3.8.5 <br />
 requirements.txt <br />
 <br />
-*After Cuda installation rename C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.1\bin\cusolver64_11.dll in ...\cusolver64_10.dll
+*After Cuda installation rename *C:\...\NVIDIA GPU Computing Toolkit\CUDA\v11.1\bin\cusolver64_11.dll* in *cusolver64_10.dll*
 
 ## How to download our trained models and evaluate their performances on FER2013
 ```
