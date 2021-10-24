@@ -1,0 +1,7 @@
+exec(open("Download_Data.py").read())
+exec(open("ETL.py").read())
+exec(open("ResNet34_Train.py").read())
+exec(open("LHC_Train.py").read())
+exec(open("Controller_Train.py").read())
+exec(open("LHC_Eval.py").read())
+exec(open("Controller_Eval.py").read())
