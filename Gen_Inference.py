@@ -56,8 +56,8 @@ np.random.seed(0)
 # x = ...
 
 
-# STANDARD INFERENCE
-pred = model.predict(x)
+# STANDARD INFERENCE (uncomment line 60 to produce the inference)
+# pred = model.predict(x)
 
 # TTA INFERENCE (not recommended. Too slow for real time classification)
 # tf.config.run_functions_eagerly(True)
